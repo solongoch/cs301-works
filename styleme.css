@@ -1,0 +1,73 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    width: 1024px;
+    background-color: honeydew;
+    color: #0F0F0F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+}
+
+h1, h3 {
+    background-color: ivory;
+    color: darkslategrey;
+    text-decoration: underline overline;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20pt;
+}
+
+h3 {
+    text-align: left;
+    font-size: 16pt;
+}
+
+.mood_img {
+    height: 250px;
+}
+
+.strong_text {
+    font-weight: 600;
+}
+
+a {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: ivory;
+    background-color: darkslategrey;
+}
+
+.checker:hover {
+    background: none;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+
+ul li, ol li {
+    margin: 10px 0;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.favourite_title {
+    font-weight: 600;
+}
+
+.embedded_text, .embedded_text::first-letter {
+    font-weight: 500;
+    font-size: 11pt;
+}
