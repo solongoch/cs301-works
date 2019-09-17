@@ -27,6 +27,7 @@ h3 {
 
 .mood_img {
     height: 250px;
+    vertical-align: middle;
 }
 
 .strong_text {
