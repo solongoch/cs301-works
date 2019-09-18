@@ -38,7 +38,7 @@ aside {
     font-size: 10pt;
 }
 
-section {
+#content {
     float: right;
     max-width: 75%;
     margin: 0;
